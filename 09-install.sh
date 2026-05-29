@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USERID=$(ID -u)
+USERID=$(id -u)
 
 #check root access or not 
 if [ $USERID -ne 0 ]; then
